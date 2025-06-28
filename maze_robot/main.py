@@ -30,7 +30,7 @@ def get_ultrasonic_distance(): # Return all distances
     return (round(ultrasonic_r.check()), round(ultrasonic_m.check()), round(ultrasonic_l.check()))
 
 # Ultrasonic Test
-
+"""
 prev_list = [get_ultrasonic_distance(), get_ultrasonic_distance(), get_ultrasonic_distance(), get_ultrasonic_distance()]
 
 while True:
@@ -43,7 +43,7 @@ while True:
     else:
         print("Right: "+str({us_distance[0]}) + " Middle: " + str({us_distance[1]}) + " Left: " + str({us_distance[2]}) + "      " + str(prev_list) + "       ")
     time.sleep(0.5)
-
+"""
 
 # Movement function
 def move():
