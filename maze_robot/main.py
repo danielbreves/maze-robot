@@ -83,6 +83,8 @@ def move():
 while True:
     move() 
     time.sleep(0.1)
+    picoCar.stop()
+    time.sleep(10)
 
 
  
